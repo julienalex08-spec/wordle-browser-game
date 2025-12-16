@@ -1,0 +1,62 @@
+html body{
+background: black;
+}
+
+#game {
+    place-items: center;
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+}
+
+.grid {
+    display: grid;
+  grid-template-columns: repeat(5, 60px);
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+    border: 2px solid;
+    color: white;
+    text-transform: uppercase;
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+    place-items: center;
+    font-size: 2.4rem;
+}
+
+.box.empty {
+    background: black;
+}
+
+.box.wrong {
+    background: #b59f3b;
+}
+
+.box.right {
+    background: green;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 75px;
+}
+
+h3 {
+    color: white;
+    text-align: right;
+    font-size: 15px;
+    gap: 2px;
+} 
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
