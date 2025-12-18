@@ -1,0 +1,11 @@
+export const WORDS = [
+  "APPLE", "BRICK", "CHAIR", "MUSIC", "PLANE",
+  "GRAPE", "SMILE", "CLOUD", "STONE", "WATER",
+  "LIGHT", "HEART", "SUGAR", "BREAD", "GREEN",
+  "SOUND", "RIVER", "SHINE", "FLAME", "ROUND",
+  "DREAM", "SWEET", "POWER", "TRAIN", "PAINT",
+  "FIELD", "VOICE", "MONEY", "FRUIT", "NIGHT",
+  "STORM", "BEACH", "SCALE", "EARTH", "QUIET",
+  "CLOCK", "LAUGH", "PRIDE", "METAL", "BRAIN",
+  "SHEEP", "HORSE", "CANDY", "TEACH", "WRITE"
+];
